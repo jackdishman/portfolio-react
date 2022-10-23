@@ -22,7 +22,7 @@ class Header extends Component<HeaderProps, HeaderState> {
 			if(!this.state.showDropdown) return
 			const target = e.target as HTMLElement | null
 			const parent = target?.parentNode as HTMLElement | null
-			if(target?.classList.contains(`menu`) || parent?.classList.contains(`close`)){
+			if(target?.classList.contains(`menu`) || parent?.classList.contains(`menu`)){
 				return
 			}
 			this.handleClick()

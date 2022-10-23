@@ -8,26 +8,6 @@ function App() {
     <div>
       <Header />
       <Home />
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
-      <p>asdf</p>
     </div>
   );
 }

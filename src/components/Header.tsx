@@ -20,6 +20,12 @@ class Header extends Component<HeaderProps, HeaderState> {
     this.handleClick = this.handleClick.bind(this);
 		window.addEventListener(`click`, (e: Event) => {
 			if(!this.state.showDropdown) return
+			const target = e.target as HTMLElement | null
+			const parent = target?.parentNode as HTMLElement | null
+			if(target?.classList.contains(`menu`) || parent?.classList.contains(`close`)){
+				return
+			}
+			this.handleClick()
 		})
 	}
   public static defaultProps = {
@@ -48,7 +54,7 @@ class Header extends Component<HeaderProps, HeaderState> {
 						<span className="text-zinc-200">{this.props.title}</span>
 					</div>
 					<div className="text-zinc-200 sm:hidden">
-						<button className="header-button" onClick={this.handleClick}>
+						<button className="header-button border" onClick={this.handleClick}>
 							{button}
 						</button>
 					</div>

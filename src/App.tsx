@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter , Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 import Default from "./layouts/Default"
 import Home from  "./pages/Home";
 import Work from  "./pages/Work";
@@ -8,7 +8,7 @@ import Education from "./pages/Education";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="" element={<Default />}>
         <Route index element={<Home />}></Route>
@@ -16,6 +16,6 @@ export default function App() {
         <Route path="education" element={<Education />} />
       </Route>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

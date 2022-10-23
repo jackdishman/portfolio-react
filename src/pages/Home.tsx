@@ -1,3 +1,5 @@
+import BlockIcon from "../components/icons/BlockIcon";
+import CodeIcon from "../components/icons/CodeIcon";
 import Socials from "../components/Socials"
 
 function Home() {
@@ -8,7 +10,14 @@ function Home() {
         <div className="bg-slate-100 p-5 rounded-lg m-5 opacity-75 border-slate-900 border drop-shadow-xl">
           <h1 className="text-4xl text-center">Jack Dishman</h1>
           <h2 className="text-xl text-center font-semibold pt-2">Frontend Engineer</h2>
-          <p className="text-center pt-2">Experience working with Startups, Fortune 500 companies, and Web3 (blockchain / peer-to-peer) technologies.</p>
+          <div className="flex mt-2">
+            <span className="mr-2"><CodeIcon /></span>
+            <p className="text-slate-900">5+ years of professional experience developing web applications for Startups and Fortune 500 companies.</p>
+          </div>
+          <div className="flex mt-2">
+            <span className="mr-2"><BlockIcon /></span>
+            <p className="text-slate-900">Subject matter expert in and Web3 (blockchain / peer-to-peer) technologies.</p>
+          </div>
         </div>
         <Socials />
       </div>

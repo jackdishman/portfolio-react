@@ -12,7 +12,7 @@ const Education = () => {
 				Graduated June 2019
 			</p>
 			<div className="flex justify-center">
-				<img src={ require(`../assets/scu-seal.png`)} alt="SCU seal" className="p-5 w-64" />
+				<img src={ require(`../assets/scu-seal.webp`)} alt="SCU seal" className="p-5 w-64" />
 			</div>
 		</div>
 		</>

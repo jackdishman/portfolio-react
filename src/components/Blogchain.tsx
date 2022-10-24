@@ -1,4 +1,5 @@
 import TailwindIcon from "./icons/TailwindIcon";
+import TypescriptIcon from "./icons/TypescriptIcon";
 import VueIcon from "./icons/VueIcon";
 
 export const Blogchain = () => {
@@ -44,7 +45,9 @@ export const Blogchain = () => {
 				{/* Technologies */}
 				<div className="flex justify-center h-6 mt-3">
 					<VueIcon />
-						<span className="px-2 text-slate-500">x</span>
+					<span className="px-2 text-slate-500">x</span>
+					<TypescriptIcon />
+					<span className="px-2 text-slate-500">x</span>
 					<TailwindIcon />
 				</div>
 				{/* Press */}

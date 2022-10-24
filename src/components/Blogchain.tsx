@@ -40,7 +40,7 @@ export const Blogchain = () => {
 					<p className="text-sm mt-2 text-slate-900">We built Blogchain.app, a social media blogging platform, where authors and independent journalists could post articles for free and earn revenue via monthly subscriptions from readers. All content is stored on peer-to-peer technolgies, including IPFS and OrbitDB, whereas account data and delisting content is all transparently recorded via Smart Contracts on NEAR Protcol.</p>
 					<p className="text-sm mt-2 text-slate-900">I architected and developed the frontend web application while delegating tasks to our Frontend team of 4+ employees.</p>
 					<p className="text-sm mt-2 text-slate-900">The complex web app consisted of a shared NPM package for code reusability, two separate repositiories for the social media app and author analytics dashboard.</p>
-					<p className="text-sm mt-2 text-slate-900">I was responsible for the product roadmap and organizing team meetings for our international team that worked asynchrously.</p>
+					<p className="text-sm mt-2 text-slate-900">I was responsible for the product roadmap and organizing team meetings for our international team that worked asynchronously.</p>
 				</div>
 				{/* Technologies */}
 				<div className="flex justify-center h-6 mt-3">

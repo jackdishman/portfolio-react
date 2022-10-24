@@ -1,5 +1,6 @@
 import Blogchain from "../components/Blogchain";
 import Extole from "../components/Extole";
+import Portfolio from "../components/Portfolio";
 import Sapient from "../components/Sapient";
 import Socials from "../components/Socials";
 import Web3 from "../components/Web3";
@@ -8,6 +9,9 @@ import Whatsgoodly from "../components/Whatsgoodly";
 export default function Work() {
 	return (
 		<div className="p-5">
+			<div className="flex justify-center">
+				<Portfolio />
+			</div>
 			<div className="flex justify-center">
 				<Blogchain />
 			</div>

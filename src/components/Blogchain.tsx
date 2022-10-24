@@ -43,21 +43,21 @@ export const Blogchain = () => {
 			{/* Press */}
 			<div>
 				<h4 className="text-xl my-5">Press:</h4>
-				<div className="flex flex-col">
+				<div className="flex flex-col sm:flex-row">
 					{/* Podcast */}
-					<div className="items-center">
+					<div className="items-center mt-3 sm:w-96">
 						<p className="text-slate-500 tex-sm text-center italic">Podcast Guest</p>
 						<a className="flex justify-center" href="https://podcasts.apple.com/us/podcast/blogchain-decentralized-blogging-platform-built-on/id1607956235?i=1000583154222" target="_blank">
 							<img src={require(`../assets/blogchain/ready-layer-one.jpeg`)} className="w-full rounded-lg shadow-lg" />
 						</a>
 					</div>
 					{/* Speaker at NEARCON 2022 */}
-					<div className="items-center mt-3">
+					<div className="items-center mt-3 sm:w-96 sm:mx-4">
 						<p className="text-slate-500 tex-sm text-center italic">Speaker @ NEARCON 2022</p>
 						<iframe className="w-full" src="https://www.youtube-nocookie.com/embed/Khn7zX7ZtqI?start=3194" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen={true}></iframe>
 					</div>
 					{/* NEAR twitter spaces */}
-					<div className="mt-3">
+					<div className="items-center sm:w-96 mt-3">
 						<a href="https://twitter.com/NEARProtocol/status/1567212597514063890" target="_blank">
 							<p className="text-slate-500 tex-sm text-center italic">Twitter Space with NEAR</p>
 							<img src={require(`../assets/blogchain/twitter-space.jpeg`)} className="w-full rounded-lg shadow-lg" />

@@ -16,7 +16,7 @@ function Home() {
           </div>
           <div className="flex mt-2 mb-4">
             <span className="mr-2"><BlockIcon /></span>
-            <p className="text-slate-900">Subject matter expert in and Web3 (blockchain / peer-to-peer) technologies.</p>
+            <p className="text-slate-900">Subject matter expert in blockchain & peer-to-peer technologies.</p>
           </div>
           <Socials />
         </div>

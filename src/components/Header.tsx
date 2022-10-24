@@ -62,7 +62,7 @@ class Header extends Component<HeaderProps, HeaderState> {
 						</div>
 					</div>
 					<div className="text-zinc-200 sm:hidden">
-						<button className="header-button border" onClick={this.handleClick}>
+						<button className="header-button border rounded" onClick={this.handleClick}>
 							{button}
 						</button>
 					</div>

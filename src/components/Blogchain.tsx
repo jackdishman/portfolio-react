@@ -1,6 +1,6 @@
 export const Blogchain = () => {
 	return(
-		<>
+		<div className="w-full sm:w-3/4 lg:w-1/2">
 			{/* Capsule Social x Blogchain */}
 			<div className="pt-12">
 			<h2 className="text-3xl text-center">Lead Frontend Engineer</h2>
@@ -66,7 +66,7 @@ export const Blogchain = () => {
 				</div>
 			</div>
 		</div>
-		</>
+		</div>
 	)
 }
 

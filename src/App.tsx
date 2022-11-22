@@ -4,7 +4,6 @@ import Default from "./layouts/Default"
 import Home from  "./pages/Home";
 import Work from  "./pages/Work";
 import Education from "./pages/Education";
-// import Header from "./components/Header";
 
 export default function App() {
   return (

@@ -12,12 +12,16 @@ interface HeaderState {
 }
 
 class Header extends Component<HeaderProps, HeaderState> {
+
 	constructor(props: HeaderProps){
 		super(props)
+
 		this.state = {
 			showDropdown: false,
 		}
+
     this.handleClick = this.handleClick.bind(this);
+
 		window.addEventListener(`click`, (e: Event) => {
 			if(!this.state.showDropdown) return
 			const target = e.target as HTMLElement | null
@@ -67,7 +71,7 @@ class Header extends Component<HeaderProps, HeaderState> {
 						</button>
 					</div>
 					<div className="absolute top-12 right-0 sm:hidden">
-						{showDropdown ? <HeaderDropdown /> : <div></div>}
+						{showDropdown && <HeaderDropdown />}
 					</div>
 				</header>
 			</div>

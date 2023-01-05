@@ -7,7 +7,7 @@ const Sapient = () => {
 					<a href="https://extole.com" target="_blank" className="underline">Publicis Sapient</a>
 					<div className="flex flex-col">
 						<span className="italic text-right">Summer 2018,</span>
-						<span className="italic text-right"> July 2019 - June 2021</span>
+						<span className="italic text-right"> July 2019 - September 2020</span>
 					</div>
 				</div>
 			</div>

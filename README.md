@@ -1,3 +1,6 @@
+# Purpose:
+This repo is deployed to [jackdishman.com](https://jackdishman.com) and is intended to be used as a portfolio project, showcasing previous work & whatever else Jack wants.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

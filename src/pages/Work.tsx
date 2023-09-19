@@ -1,4 +1,6 @@
+import Authentic from "../components/Authentic";
 import Blogchain from "../components/Blogchain";
+import Captains from "../components/Captains";
 import Extole from "../components/Extole";
 import Portfolio from "../components/Portfolio";
 import Sapient from "../components/Sapient";
@@ -11,6 +13,12 @@ export default function Work() {
 		<div className="p-5">
 			<div className="flex justify-center">
 				<Portfolio />
+			</div>
+			{/* <div className="flex justify-center">
+				<Captains />
+			</div> */}
+			<div className="flex justify-center">
+				<Authentic />
 			</div>
 			<div className="flex justify-center">
 				<Blogchain />
@@ -33,5 +41,5 @@ export default function Work() {
 				</div>
 			</div>
 		</div>
-	)
+	);
 }

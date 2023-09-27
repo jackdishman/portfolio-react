@@ -4,7 +4,7 @@ import Socials from "../components/Socials";
 
 function Home() {
 	return (
-		<div className="flex flex-col justify-center items-center h-screen bg-gradient bg-gradient-to-r from-gray-500 lg:via-gray-500 to-zinc-500 pt-12">
+		<div className="flex flex-col justify-center items-center h-screen pt-12">
 			<img
 				src={require(`../assets/face.webp`)}
 				className="w-48 rounded-lg border-gray-900 border-2 drop-shadow-xl"

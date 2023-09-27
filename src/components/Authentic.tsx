@@ -2,11 +2,29 @@ import NextIcon from "./icons/NextIcon";
 import TypescriptIcon from "./icons/TypescriptIcon";
 import TailwindIcon from "./icons/TailwindIcon";
 import PostgresIcon from "./icons/PostgresIcon";
+import { Carousel } from "@material-tailwind/react";
 
 export default function Authentic() {
 	return (
-		<div className="w-full sm:w-3/4 lg:w-1/2 border-b border-slate-900 mt-12 pb-10">
+		<div className="w-full sm:w-3/4 lg:w-1/2 border-t border-b border-slate-900 mt-12 py-10">
 			<h2 className="text-3xl text-center">Senior Software Engineer</h2>
+			<div className="flex justify-center w-full mt-5">
+				<Carousel
+					transition={{ duration: 2 }}
+					className="rounded-xl"
+					nonce={undefined}
+					onResize={undefined}
+					onResizeCapture={undefined}>
+					<img
+						src={require(`../assets/authentic.png`)}
+						className="h-full w-full object-cover"
+					/>
+					<img
+						src={require(`../assets/authentic-2.png`)}
+						className="h-full w-full object-cover"
+					/>
+				</Carousel>
+			</div>
 			<div className="flex justify-between mt-5">
 				<a
 					href="https://heyauthentic.com"

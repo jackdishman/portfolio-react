@@ -1,8 +1,10 @@
 import Authentic from "../components/Authentic";
 import Blogchain from "../components/Blogchain";
 import Captains from "../components/Captains";
+import EthBoston from "../components/EthBoston";
 import Extole from "../components/Extole";
 import Portfolio from "../components/Portfolio";
+import Rootroop from "../components/Rootroop";
 import Sapient from "../components/Sapient";
 import Socials from "../components/Socials";
 import Web3 from "../components/Web3";
@@ -18,10 +20,16 @@ export default function Work() {
 				<Captains />
 			</div> */}
 			<div className="flex justify-center">
+				<EthBoston />
+			</div>
+			<div className="flex justify-center">
 				<Authentic />
 			</div>
 			<div className="flex justify-center">
 				<Blogchain />
+			</div>
+			<div className="flex justify-center">
+				<Rootroop />
 			</div>
 			<div className="flex justify-center">
 				<Web3 />

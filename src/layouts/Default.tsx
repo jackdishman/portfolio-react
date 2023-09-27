@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom"
-import Header from "../components/Header"
+import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
 
 const Default = () => {
 	return (
@@ -7,7 +7,7 @@ const Default = () => {
 			<Header />
 			<Outlet />
 		</>
-	)
-}
+	);
+};
 
-export default Default
+export default Default;

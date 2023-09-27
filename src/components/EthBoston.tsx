@@ -36,32 +36,32 @@ export default function EthBoston() {
 						<a
 							href="https://www.ethboston.xyz/"
 							target="_blank"
-							className="text-slate-500 text-sm">
+							className="text-gray-500 text-sm">
 							View Website
 						</a>
-						<span className="px-2 text-slate-500"> | </span>
+						<span className="px-2 text-gray-500"> | </span>
 						<a
 							href="https://github.com/bostondao/ethboston.xyz"
 							target="_blank"
-							className="text-slate-500 text-sm">
+							className="text-gray-500 text-sm">
 							View source code
 						</a>
 					</div>
 				</div>
 				{/* Job Description */}
 				<div>
-					<p className="text-sm mt-2 text-slate-900">
+					<p className="text-sm mt-2 text-gray-900">
 						Developed the website for ETHBoston, a 3-day hackathon and
 						conference that brings together the Ethereum community to build
 						decentralized applications. The event took place at the Boston
 						Convention Center and was sponsored by the Ethereum Foundation,
 						Consensys, and many other blockchain companies.
 					</p>
-					<p className="text-sm mt-2 text-slate-900">
+					<p className="text-sm mt-2 text-gray-900">
 						The website surpassed 1 million requests and nearly 40,000 unique
 						visitors during the three-day span of the convention.
 					</p>
-					<p className="text-sm mt-2 text-slate-900">
+					<p className="text-sm mt-2 text-gray-900">
 						The website acted as a speaker directory, event schedule,
 						registration portal, sponsor showcase, and ticket purchasing portal.
 					</p>
@@ -69,7 +69,7 @@ export default function EthBoston() {
 				{/* Technologies */}
 				<div className="flex justify-center h-6 mt-3">
 					<ReactIcon />
-					<span className="px-2 text-slate-500">x</span>
+					<span className="px-2 text-gray-500">x</span>
 					<TailwindIcon />
 				</div>
 			</div>

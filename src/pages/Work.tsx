@@ -12,7 +12,7 @@ import Whatsgoodly from "../components/Whatsgoodly";
 
 export default function Work() {
 	return (
-		<div className="p-5">
+		<div className="p-5 z-0 relative">
 			<div className="flex justify-center">
 				<Portfolio />
 			</div>
@@ -44,7 +44,7 @@ export default function Work() {
 				<Whatsgoodly />
 			</div>
 			<div className="flex justify-center">
-				<div className="w-full sm:w-3/4 lg:w-1/2 pt-5 mt-10 border-t border-slate-900">
+				<div className="w-full sm:w-3/4 lg:w-1/2 pt-5 mt-10 border-t border-gray-900">
 					<Socials />
 				</div>
 			</div>

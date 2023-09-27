@@ -11,7 +11,9 @@ const root = ReactDOM.createRoot(
 root.render(
 	<React.StrictMode>
 		<ThemeProvider>
-			<App />
+			<div className="bg-gradient-to-r from-gray-300 via-gray-100 to-gray-300 min-h-screen">
+				<App />
+			</div>
 		</ThemeProvider>
 	</React.StrictMode>
 );

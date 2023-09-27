@@ -4,9 +4,9 @@ import TailwindIcon from "./icons/TailwindIcon";
 
 export default function Captains() {
 	return (
-		<div className="w-full sm:w-3/4 lg:w-1/2 border-b border-slate-900 mt-12 pb-10">
+		<div className="w-full sm:w-3/4 lg:w-1/2 border-b border-gray-900 mt-12 pb-10">
 			<h2 className="text-3xl text-center">Captain&apos;s Yacht Club</h2>
-			<p className="mt-3 text-slate-900 text-sm">
+			<p className="mt-3 text-gray-900 text-sm">
 				<a
 					href="https://captainsyacht.club"
 					target="_blank"
@@ -19,9 +19,9 @@ export default function Captains() {
 			</p>
 			<div className="flex justify-center h-6 mt-3">
 				<NextIcon />
-				<span className="px-2 text-slate-500">x</span>
+				<span className="px-2 text-gray-500">x</span>
 				<TypescriptIcon />
-				<span className="px-2 text-slate-500">x</span>
+				<span className="px-2 text-gray-500">x</span>
 				<TailwindIcon />
 			</div>
 		</div>

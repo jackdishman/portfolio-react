@@ -21,6 +21,7 @@ const Education = () => {
 						alt="SCU seal"
 						className="p-5 w-64"
 					/>
+					<div className="hidden">test</div>
 				</div>
 			</div>
 		</>

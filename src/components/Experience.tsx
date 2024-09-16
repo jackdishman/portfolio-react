@@ -33,11 +33,11 @@ const Experience: React.FC<ExperienceProps> = ({
   return (
     <div className="w-full sm:w-3/4 lg:w-1/2 mt-12 border-t border-b border-gray-900 py-10">
       <h2 className="text-3xl text-center">{title}</h2>
-      <div className="flex justify-between mt-5 items-center">
+      <div className="flex flex-col sm:flex-row justify-between mt-5 items-center">
         <a href={link} target="_blank" className="underline">
           {company}
         </a>
-        <span className="italic">{dateRange}</span>
+        <span className="italic my-2 sm:my-0">{dateRange}</span>
         <span
           className={`px-3 py-1 rounded-full text-xs font-bold ${chipColor}`}
         >

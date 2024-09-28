@@ -15,7 +15,6 @@ import TypescriptIcon from "../components/icons/TypescriptIcon";
 import VueIcon from "../components/icons/VueIcon";
 import Portfolio from "../components/Portfolio";
 import Socials from "../components/Socials";
-import Web3 from "../components/Web3";
 import Whatsgoodly from "../components/Whatsgoodly";
 
 export default function Work() {
@@ -43,7 +42,7 @@ export default function Work() {
         <Experience
           title="Mobile Application Developer"
           company="iOS Mobile Application"
-          link="" // No link provided for this project
+          link="https://github.com/jackdishman/pet-portfolio"
           dateRange="Side Project"
           employmentType="Side Project"
           description={[
@@ -260,9 +259,6 @@ export default function Work() {
             </>
           }
         />
-      </div>
-      <div className="flex justify-center">
-        <Web3 />
       </div>
       <div className="flex justify-center">
         <Experience

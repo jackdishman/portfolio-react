@@ -43,8 +43,11 @@ const Header = () => {
 						<Link to="/dev" className="mr-4">
 							Experience
 						</Link>
-						<Link to="/education" className="">
+						<Link to="/education" className="mr-4">
 							Education
+						</Link>
+						<Link to="/writing" className="">
+							Writing
 						</Link>
 					</div>
 				</div>

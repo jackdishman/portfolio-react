@@ -4,7 +4,7 @@ import TypescriptIcon from "./icons/TypescriptIcon";
 
 const Portfolio = () => {
   return (
-    <div className="w-full sm:w-3/4 lg:w-1/2 border-b border-gray-900 mt-12 pb-10">
+    <div className="w-full sm:w-3/4 lg:w-1/2 border-gray-900 mt-24 pb-10">
       <p className="text-gray-900 text-xl mb-10 italic text-center">
         Jack Dishman has 5+ years of professional experience developing sleek,
         scalable, and secure web applications for both startups and Fortune-500

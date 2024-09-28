@@ -18,6 +18,11 @@ const HeaderDropdown = () => {
 				className="rounded-bl-xl border-l border-b border-zinc-200 px-5 py-2 text-right">
 				Education
 			</Link>
+			<Link
+				to="/writing"
+				className="rounded-bl-xl border-l border-b border-zinc-200 px-5 py-2 text-right">
+				Writing
+			</Link>
 		</div>
 	);
 };

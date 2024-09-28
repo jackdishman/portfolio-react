@@ -31,7 +31,7 @@ const Experience: React.FC<ExperienceProps> = ({
       : "bg-blue-100 text-blue-800";
 
   return (
-    <div className="w-full sm:w-3/4 lg:w-1/2 mt-12 border-t border-b border-gray-900 py-10">
+    <div className="w-full sm:w-3/4 lg:w-1/2 mt-12 border-t border-gray-900 py-10">
       <h2 className="text-3xl text-center">{title}</h2>
       <div className="flex flex-col sm:flex-row justify-between mt-5 items-center">
         <a href={link} target="_blank" className="underline">
